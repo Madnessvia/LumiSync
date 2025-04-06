@@ -1,0 +1,34 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sun Apr  6 02:40:13 2025
+# Process ID: 33236
+# Current directory: C:/Users/xuelihao/AppData/Roaming/Xilinx/Vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent34012
+# Log file: C:/Users/xuelihao/AppData/Roaming/Xilinx/Vivado/vivado.log
+# Journal file: C:/Users/xuelihao/AppData/Roaming/Xilinx/Vivado\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/xuelihao/Desktop/hw/hw/hw.xpr
+generate_target all [get_files  C:/Users/xuelihao/Desktop/hw/hw/hw.srcs/sources_1/bd/hdmi/hdmi.bd]
+catch { config_ip_cache -export [get_ips -all hdmi_mig_7series_0_0] }
+catch { config_ip_cache -export [get_ips -all hdmi_light_strip_output_0_4] }
+catch { config_ip_cache -export [get_ips -all hdmi_s00_regslice_0] }
+catch { config_ip_cache -export [get_ips -all hdmi_auto_us_0] }
+catch { config_ip_cache -export [get_ips -all hdmi_auto_rs_w_1] }
+catch { config_ip_cache -export [get_ips -all hdmi_s01_regslice_0] }
+catch { config_ip_cache -export [get_ips -all hdmi_auto_us_1] }
+catch { config_ip_cache -export [get_ips -all hdmi_auto_rs_w_2] }
+catch { config_ip_cache -export [get_ips -all hdmi_s02_regslice_0] }
+catch { config_ip_cache -export [get_ips -all hdmi_s03_regslice_0] }
+catch { config_ip_cache -export [get_ips -all hdmi_m00_regslice_0] }
+catch { config_ip_cache -export [get_ips -all hdmi_auto_ds_0] }
+catch { config_ip_cache -export [get_ips -all hdmi_auto_rs_w_0] }
+export_ip_user_files -of_objects [get_files C:/Users/xuelihao/Desktop/hw/hw/hw.srcs/sources_1/bd/hdmi/hdmi.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/Users/xuelihao/Desktop/hw/hw/hw.srcs/sources_1/bd/hdmi/hdmi.bd]
+launch_runs hdmi_light_strip_output_0_4_synth_1 -jobs 2
+wait_on_run hdmi_light_strip_output_0_4_synth_1
+export_simulation -of_objects [get_files C:/Users/xuelihao/Desktop/hw/hw/hw.srcs/sources_1/bd/hdmi/hdmi.bd] -directory C:/Users/xuelihao/Desktop/hw/hw/hw.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/xuelihao/Desktop/hw/hw/hw.ip_user_files -ipstatic_source_dir C:/Users/xuelihao/Desktop/hw/hw/hw.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/xuelihao/Desktop/hw/hw/hw.cache/compile_simlib/modelsim} {questa=C:/Users/xuelihao/Desktop/hw/hw/hw.cache/compile_simlib/questa} {riviera=C:/Users/xuelihao/Desktop/hw/hw/hw.cache/compile_simlib/riviera} {activehdl=C:/Users/xuelihao/Desktop/hw/hw/hw.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+update_compile_order -fileset sources_1
+archive_project C:/Users/xuelihao/Desktop/hw/hw.xpr.zip -temp_dir C:/Users/xuelihao/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-33236-xuelihao -force -exclude_run_results -include_config_settings

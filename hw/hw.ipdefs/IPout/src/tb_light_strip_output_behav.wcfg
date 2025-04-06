@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_light_strip_output_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_light_strip_output" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="3016000001fs"></ZoomEndTime>
+      <Cursor1Time time="1054000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="301"></NameColumnWidth>
+      <ValueColumnWidth column_width="146"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="60" />
+   <wvobject fp_name="/tb_light_strip_output/pclk" type="logic">
+      <obj_property name="ElementShortName">pclk</obj_property>
+      <obj_property name="ObjectShortName">pclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_light_strip_output/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_light_strip_output/hs" type="logic">
+      <obj_property name="ElementShortName">hs</obj_property>
+      <obj_property name="ObjectShortName">hs</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_light_strip_output/vs" type="logic">
+      <obj_property name="ElementShortName">vs</obj_property>
+      <obj_property name="ObjectShortName">vs</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_light_strip_output/de" type="logic">
+      <obj_property name="ElementShortName">de</obj_property>
+      <obj_property name="ObjectShortName">de</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_light_strip_output/data888" type="array">
+      <obj_property name="ElementShortName">data888[23:0]</obj_property>
+      <obj_property name="ObjectShortName">data888[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_light_strip_output/light_rgb_data" type="logic">
+      <obj_property name="ElementShortName">light_rgb_data</obj_property>
+      <obj_property name="ObjectShortName">light_rgb_data</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_light_strip_output/uart_data_en" type="logic">
+      <obj_property name="ElementShortName">uart_data_en</obj_property>
+      <obj_property name="ObjectShortName">uart_data_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_light_strip_output/dut/uart_data_en" type="logic">
+      <obj_property name="ElementShortName">uart_data_en</obj_property>
+      <obj_property name="ObjectShortName">uart_data_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_light_strip_output/dut/data" type="array">
+      <obj_property name="ElementShortName">data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_light_strip_output/dut/btn_data" type="array">
+      <obj_property name="ElementShortName">btn_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">btn_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_light_strip_output/dut/top_data" type="array">
+      <obj_property name="ElementShortName">top_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">top_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_light_strip_output/dut/ram_data" type="array">
+      <obj_property name="ElementShortName">ram_data[51:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_data[51:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_light_strip_output/dut/ram_data_buf" type="array">
+      <obj_property name="ElementShortName">ram_data_buf[16:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_data_buf[16:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_light_strip_output/dut/rgb_data_out" type="array">
+      <obj_property name="ElementShortName">rgb_data_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">rgb_data_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_light_strip_output/dut/rgb_data_tsf" type="array">
+      <obj_property name="ElementShortName">rgb_data_tsf[23:0]</obj_property>
+      <obj_property name="ObjectShortName">rgb_data_tsf[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_light_strip_output/dut/rgb_data" type="array">
+      <obj_property name="ElementShortName">rgb_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">rgb_data[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_light_strip_output/dut/h_pxiel" type="array">
+      <obj_property name="ElementShortName">h_pxiel[11:0]</obj_property>
+      <obj_property name="ObjectShortName">h_pxiel[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_light_strip_output/dut/h_cnt" type="array">
+      <obj_property name="ElementShortName">h_cnt[11:0]</obj_property>
+      <obj_property name="ObjectShortName">h_cnt[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_light_strip_output/dut/frame_vl" type="logic">
+      <obj_property name="ElementShortName">frame_vl</obj_property>
+      <obj_property name="ObjectShortName">frame_vl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_light_strip_output/dut/fifo_w_en" type="logic">
+      <obj_property name="ElementShortName">fifo_w_en</obj_property>
+      <obj_property name="ObjectShortName">fifo_w_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_light_strip_output/dut/fifo_r_begin" type="logic">
+      <obj_property name="ElementShortName">fifo_r_begin</obj_property>
+      <obj_property name="ObjectShortName">fifo_r_begin</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_light_strip_output/dut/fifo_r_begin_buf" type="logic">
+      <obj_property name="ElementShortName">fifo_r_begin_buf</obj_property>
+      <obj_property name="ObjectShortName">fifo_r_begin_buf</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_light_strip_output/dut/fifo_read_en" type="logic">
+      <obj_property name="ElementShortName">fifo_read_en</obj_property>
+      <obj_property name="ObjectShortName">fifo_read_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_light_strip_output/dut/fifo_emplty" type="logic">
+      <obj_property name="ElementShortName">fifo_emplty</obj_property>
+      <obj_property name="ObjectShortName">fifo_emplty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_light_strip_output/dut/tx_done" type="logic">
+      <obj_property name="ElementShortName">tx_done</obj_property>
+      <obj_property name="ObjectShortName">tx_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_light_strip_output/dut/uart_data_en" type="logic">
+      <obj_property name="ElementShortName">uart_data_en</obj_property>
+      <obj_property name="ObjectShortName">uart_data_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_light_strip_output/dut/fifo_r_begin" type="logic">
+      <obj_property name="ElementShortName">fifo_r_begin</obj_property>
+      <obj_property name="ObjectShortName">fifo_r_begin</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_light_strip_output/dut/fifo_r_begin_buf" type="logic">
+      <obj_property name="ElementShortName">fifo_r_begin_buf</obj_property>
+      <obj_property name="ObjectShortName">fifo_r_begin_buf</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_light_strip_output/dut/light_strip_data/RGB" type="array">
+      <obj_property name="ElementShortName">RGB[23:0]</obj_property>
+      <obj_property name="ObjectShortName">RGB[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_light_strip_output/dut/light_strip_data/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_light_strip_output/dut/light_strip_data/tx_en" type="logic">
+      <obj_property name="ElementShortName">tx_en</obj_property>
+      <obj_property name="ObjectShortName">tx_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_light_strip_output/dut/light_strip_data/tx_done" type="logic">
+      <obj_property name="ElementShortName">tx_done</obj_property>
+      <obj_property name="ObjectShortName">tx_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_light_strip_output/dut/light_strip_data/symbol" type="logic">
+      <obj_property name="ElementShortName">symbol</obj_property>
+      <obj_property name="ObjectShortName">symbol</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_light_strip_output/dut/light_strip_data/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_light_strip_output/dut/light_strip_data/i" type="array">
+      <obj_property name="ElementShortName">i[4:0]</obj_property>
+      <obj_property name="ObjectShortName">i[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_light_strip_output/dut/light_strip_data/data_out" type="logic">
+      <obj_property name="ElementShortName">data_out</obj_property>
+      <obj_property name="ObjectShortName">data_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_light_strip_output/dut/light_strip_data/cnt" type="array">
+      <obj_property name="ElementShortName">cnt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_light_strip_output/dut/rgb_data_tsf" type="array">
+      <obj_property name="ElementShortName">rgb_data_tsf[23:0]</obj_property>
+      <obj_property name="ObjectShortName">rgb_data_tsf[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_light_strip_output/dut/light_strip_data/RGB_RZ" type="logic">
+      <obj_property name="ElementShortName">RGB_RZ</obj_property>
+      <obj_property name="ObjectShortName">RGB_RZ</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_light_strip_output/dut/light_strip_data/RGB" type="array">
+      <obj_property name="ElementShortName">RGB[23:0]</obj_property>
+      <obj_property name="ObjectShortName">RGB[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_light_strip_output/dut/rgb_data" type="array">
+      <obj_property name="ElementShortName">rgb_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">rgb_data[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_light_strip_output/dut/rgb_out_data/dout" type="array">
+      <obj_property name="ElementShortName">dout[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_light_strip_output/dut/light_strip_data/i" type="array">
+      <obj_property name="ElementShortName">i[4:0]</obj_property>
+      <obj_property name="ObjectShortName">i[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_light_strip_output/dut/light_strip_data/data_out" type="logic">
+      <obj_property name="ElementShortName">data_out</obj_property>
+      <obj_property name="ObjectShortName">data_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_light_strip_output/dut/rgb_data" type="array">
+      <obj_property name="ElementShortName">rgb_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">rgb_data[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_light_strip_output/dut/light_strip_data/i" type="array">
+      <obj_property name="ElementShortName">i[4:0]</obj_property>
+      <obj_property name="ObjectShortName">i[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_light_strip_output/dut/light_strip_data/RZ_data" type="logic">
+      <obj_property name="ElementShortName">RZ_data</obj_property>
+      <obj_property name="ObjectShortName">RZ_data</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_light_strip_output/dut/light_strip_data/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_light_strip_output/dut/light_rgb_data" type="logic">
+      <obj_property name="ElementShortName">light_rgb_data</obj_property>
+      <obj_property name="ObjectShortName">light_rgb_data</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_light_strip_output/dut/rgb_data_tsf" type="array">
+      <obj_property name="ElementShortName">rgb_data_tsf[23:0]</obj_property>
+      <obj_property name="ObjectShortName">rgb_data_tsf[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_light_strip_output/dut/rgb_data_out" type="array">
+      <obj_property name="ElementShortName">rgb_data_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">rgb_data_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_light_strip_output/dut/rgb_data" type="array">
+      <obj_property name="ElementShortName">rgb_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">rgb_data[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_light_strip_output/dut/fifo_w_en" type="logic">
+      <obj_property name="ElementShortName">fifo_w_en</obj_property>
+      <obj_property name="ObjectShortName">fifo_w_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_light_strip_output/dut/fifo_read_en" type="logic">
+      <obj_property name="ElementShortName">fifo_read_en</obj_property>
+      <obj_property name="ObjectShortName">fifo_read_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_light_strip_output/dut/fifo_emplty" type="logic">
+      <obj_property name="ElementShortName">fifo_emplty</obj_property>
+      <obj_property name="ObjectShortName">fifo_emplty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_light_strip_output/dut/rgb_out_data/din" type="array">
+      <obj_property name="ElementShortName">din[15:0]</obj_property>
+      <obj_property name="ObjectShortName">din[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_light_strip_output/dut/rgb_out_data/dout" type="array">
+      <obj_property name="ElementShortName">dout[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_light_strip_output/light_rgb_data" type="logic">
+      <obj_property name="ElementShortName">light_rgb_data</obj_property>
+      <obj_property name="ObjectShortName">light_rgb_data</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_light_strip_output/light_rgb_data" type="logic">
+      <obj_property name="ElementShortName">light_rgb_data</obj_property>
+      <obj_property name="ObjectShortName">light_rgb_data</obj_property>
+   </wvobject>
+</wave_config>
