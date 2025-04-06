@@ -1,7 +1,10 @@
 # LumiSync - FPGA Powered Ambient Lighting for Monitors
 This repository contains the work for ECE532 at University of Toronto 2025W1
+
 The project is based on Digilent Nexys Video board
+
 Detailed report and presentation slides can be found in ```doc```
+
 A video demo can be found at https://www.youtube.com/watch?v=ZBh9cPyp7LM
 
 ## Repository Content
